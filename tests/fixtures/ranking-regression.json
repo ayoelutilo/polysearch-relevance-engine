@@ -1,0 +1,75 @@
+{
+  "query": "pod security admission best practices",
+  "expectedTopCanonicalIds": [
+    "docs.platform.example/security/pod-security-admission",
+    "security.platform.example/blog/pod-security-admission-best-practices",
+    "vendor.example.com/blog/pod-security-admission-checklist",
+    "docs.platform.example/security/enforce-standards-admission-controller"
+  ],
+  "providers": [
+    {
+      "id": "primary-docs",
+      "corpus": [
+        {
+          "id": "doc-001",
+          "url": "https://docs.platform.example/security/pod-security-admission",
+          "title": "Pod Security Admission",
+          "snippet": "Use built-in Pod Security Admission policies to enforce baseline and restricted standards.",
+          "publishedAt": "2026-03-01T00:00:00.000Z",
+          "authority": 0.98,
+          "tags": ["platform", "security", "admission", "best-practices"]
+        },
+        {
+          "id": "doc-002",
+          "url": "https://docs.platform.example/security/enforce-standards-admission-controller/",
+          "title": "Enforce Pod Security Standards with Admission Controller",
+          "snippet": "Configure pod admission labels and namespace level policies.",
+          "publishedAt": "2025-12-15T00:00:00.000Z",
+          "authority": 0.93,
+          "tags": ["platform", "security", "admission"]
+        },
+        {
+          "id": "doc-003",
+          "url": "https://vendor.example.com/blog/pod-security-admission-checklist",
+          "title": "Pod Security Admission Checklist",
+          "snippet": "A practical hardening checklist for clusters using PSA.",
+          "publishedAt": "2026-02-20T00:00:00.000Z",
+          "authority": 0.67,
+          "tags": ["platform", "security", "checklist"]
+        }
+      ]
+    },
+    {
+      "id": "security-news",
+      "corpus": [
+        {
+          "id": "doc-001-dup",
+          "url": "https://www.docs.platform.example/security/pod-security-admission?utm_source=newsletter",
+          "title": "Platform Pod Security Admission Guide",
+          "snippet": "Deep dive into Pod Security Admission for production clusters.",
+          "publishedAt": "2026-03-02T00:00:00.000Z",
+          "authority": 0.89,
+          "tags": ["platform", "admission", "security"]
+        },
+        {
+          "id": "doc-004",
+          "url": "https://security.platform.example/blog/pod-security-admission-best-practices",
+          "title": "Platform Pod Security Admission Best Practices",
+          "snippet": "How to combine admission policies with CI checks and drift detection.",
+          "publishedAt": "2026-02-25T00:00:00.000Z",
+          "authority": 0.86,
+          "tags": ["security", "best-practices", "platform", "admission"]
+        },
+        {
+          "id": "doc-005",
+          "url": "https://docs.platform.example/blog/2025/11/10/pod-security-admission-rollout",
+          "title": "Pod Security Admission Rollout Notes",
+          "snippet": "Release notes and migration details for security admission updates.",
+          "publishedAt": "2025-11-10T00:00:00.000Z",
+          "authority": 0.78,
+          "tags": ["platform", "security", "release"]
+        }
+      ]
+    }
+  ]
+}
