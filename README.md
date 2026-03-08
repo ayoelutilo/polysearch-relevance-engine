@@ -73,7 +73,3 @@ console.log(response.results[0].score);
 - `src/dedup.ts`: canonical deduplication across providers
 - `src/diversity.ts`: domain diversity suppression
 - `tests/relevanceEngine.test.ts`: ranking regression and fallback behavior tests
-
-- Changelog: minor updates.
-
-- Changelog: minor updates.

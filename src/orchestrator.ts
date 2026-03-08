@@ -120,7 +120,3 @@ export class RelevanceEngine {
     };
   }
 }
-
-// Refinement.
-
-// Refinement.

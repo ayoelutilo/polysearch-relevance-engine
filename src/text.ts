@@ -95,5 +95,3 @@ export function tokenOverlap(queryTokens: string[], targetTokens: string[]): num
   const union = new Set([...querySet, ...targetSet]).size;
   return union === 0 ? 0 : intersection / union;
 }
-
-// Refinement.

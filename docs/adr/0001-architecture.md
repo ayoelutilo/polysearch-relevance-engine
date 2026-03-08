@@ -27,7 +27,3 @@ Fallback strategy is configurable:
 - Clear observability via provider diagnostics and score explanations.
 - Slightly lower throughput than parallel fan-out due to sequential fallback.
 - Easy extension for future semantic signals and provider adapters.
-
-- Changelog: minor updates.
-
-- Changelog: minor updates.

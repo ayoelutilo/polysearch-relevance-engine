@@ -80,7 +80,3 @@ export class InMemorySearchProvider implements SearchProvider {
     return scored;
   }
 }
-
-// Refinement.
-
-// Refinement.

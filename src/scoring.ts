@@ -105,5 +105,3 @@ export function scoreCandidate(record: DedupedRecord, query: SearchQuery): Expla
     reasons
   };
 }
-
-// Refinement.

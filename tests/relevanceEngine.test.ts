@@ -186,5 +186,3 @@ test("low-recall fallback continues when harvested hits are duplicate-heavy", as
   assert.equal(response.providers[1].status, "success");
   assert.ok(response.results.length >= 2);
 });
-
-// Refinement.

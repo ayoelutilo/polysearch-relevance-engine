@@ -60,7 +60,3 @@ export function applyDomainDiversity(
 
   return selected;
 }
-
-// Refinement.
-
-// Refinement.
