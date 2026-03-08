@@ -86,3 +86,5 @@ export interface RelevanceEngineOptions {
   defaultLimit?: number;
   minProviderScore?: number;
 }
+
+// Refinement.
