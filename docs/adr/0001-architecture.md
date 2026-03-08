@@ -29,3 +29,5 @@ Fallback strategy is configurable:
 - Easy extension for future semantic signals and provider adapters.
 
 - Changelog: minor updates.
+
+- Changelog: minor updates.
