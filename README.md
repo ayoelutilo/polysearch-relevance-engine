@@ -75,3 +75,5 @@ console.log(response.results[0].score);
 - `tests/relevanceEngine.test.ts`: ranking regression and fallback behavior tests
 
 - Changelog: minor updates.
+
+- Changelog: minor updates.
